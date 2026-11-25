@@ -22,16 +22,28 @@ function App() {
   );
 }
 
+//What should go on a NavBar?
 function NavBar() {
   return (
     <nav className='HomeNavBar'>
-      <img src=''></img>
-      <nav className='NavBtnContainer'>
-        <select>
-
-        </select>
-      </nav>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </nav>
+  );
+}
+
+//Board that report the progress that has been done while the player is done.
+function SummaryBoard() {
+  return (
+    <div className='SummaryContainer'>
+      <title className='SummaryTitle'>Summary Board</title>
+      
+    </div>
   );
 }
 
